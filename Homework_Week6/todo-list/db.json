@@ -1,0 +1,7 @@
+{
+  "todos": [
+    {"id": 1, "title": "Buy lamb shoulder and rosemary", "done": true},
+    {"id": 2, "title": "Read the week 06 notes", "done": false},
+    {"id": 3, "title": "Push week 6 homework", "done": false}
+  ]
+}

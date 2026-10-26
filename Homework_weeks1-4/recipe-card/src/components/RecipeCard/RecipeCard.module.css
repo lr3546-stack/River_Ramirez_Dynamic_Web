@@ -1,0 +1,126 @@
+.card {
+  border-radius: var(--radius);
+  background: #ffffff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+.img {
+  width: 30%;
+  height: auto;
+  border-radius: var(--radius);
+}
+
+.card_text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card_lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.recipe_title,
+.list_title {
+  font-family: var(--ff-acme);
+  font-weight: 400;
+}
+
+.recipe_title {
+  margin: 0 0 0.5rem;
+  font-size: 2.5rem;
+  color: var(--c-ragu);
+  border-bottom: 0.25rem solid var(--c-rosemary);
+}
+
+.list_title {
+  margin: 0.5rem 0;
+  font-size: 1.625rem;
+  color: var(--c-rosemary);
+}
+
+.ingredients_list {
+  width: 45%;
+}
+
+.ingredients_list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list_item {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.list_item span {
+  display: block;
+}
+
+.list_item .measure {
+  flex: 0 0 6rem;
+  margin-right: 1rem;
+  font-weight: 600;
+  color: var(--c-ragu);
+}
+
+.instructions_list {
+  width: 55%;
+}
+
+.instructions_list ol {
+  padding-left: 1.25rem;
+}
+
+.instructions_list li {
+  margin-bottom: 0.5rem;
+}
+
+.toggle_btn {
+  cursor: pointer;
+  border: 2px solid var(--c-rosemary);
+  border-radius: var(--radius);
+  background: none;
+  color: var(--c-rosemary);
+  padding: 0.25rem 0.75rem;
+  font-family: inherit;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0 1rem;
+}
+
+.rating_btn_slot {
+  display: inline-block;
+  width: 2.5rem;
+  text-align: center;
+}
+
+.rating_btn {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+.hearts {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1rem;
+  gap: 0.5rem;
+  color: var(--c-ragu);
+  min-height: 1.25rem;
+  min-width: 7rem;
+}

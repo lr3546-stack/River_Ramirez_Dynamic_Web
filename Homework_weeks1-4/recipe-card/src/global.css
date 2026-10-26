@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--c-cream);
+  color: var(--c-ink);
+}
+
+/* CSS custom properties (variables). Defined once, used everywhere.
+   These are the values a whole cookbook site would share. */
+:root {
+  --c-ragu: #9c2f1c;
+  --c-rosemary: #4f6b3a;
+  --c-cream: #f7f1e8;
+  --c-ink: #2b2420;
+  --ff-acme: 'Acme', sans-serif;
+  --radius: 20px;
+}
