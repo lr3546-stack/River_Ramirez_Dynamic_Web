@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+/* colours and font from the CEM Physical Therapy Figma file */
+@theme {
+  --font-manrope: 'Manrope', sans-serif;
+  --color-brand: #2d3b9e;
+  --color-lime: #c1ff33;
+  --color-lime-soft: #e2ff99;
+  --color-page: #f4f5fa;
+}
+
+body {
+  background-color: var(--color-page);
+}
